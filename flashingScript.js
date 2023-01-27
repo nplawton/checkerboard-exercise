@@ -46,9 +46,3 @@ for ( let i = 1; i <= 81; i++){
         //console.log(square2);
     }
 }
-
-function timer(){
-    let colorTimer = setInterval(randomColor(), 2000);
-    console.log("I\'m bieng called!");
-    return colorTimer;
-}
