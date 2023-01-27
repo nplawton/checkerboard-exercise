@@ -13,7 +13,7 @@ function randomColor(){
     //test to ensure color is generated.
     console.log(finColor);
     //the color doesn't reconize lower case letters in the hexidecimal range.
-    return `#${finColor.toUpperCase()}`
+    return `#${finColor.toUpperCase()}`;
 }
 
 for ( let i = 1; i <= 81; i++){
